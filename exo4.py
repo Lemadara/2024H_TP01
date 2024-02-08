@@ -1,3 +1,9 @@
-# TODO : Analyser le message crypté de l'Empire, compter le nombre d'occurrences des voyelles "a", "e", "i", "o", "u" et "y", puis assembler les résultats en une coordonnée galactique.
-
-message = ...
+message=input("Entrez le message de l'Empire :")
+messageofempire=message.lower()
+A=messageofempire.count("a")
+E=messageofempire.count("e")
+I=messageofempire.count("i")
+O=messageofempire.count("o")
+U=messageofempire.count("u")
+Y=messageofempire.count("y")
+print(f" Les coordonnees galactiques sont {A}.{E}.{I}.{O}.{U}.{Y}.")
